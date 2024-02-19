@@ -47,6 +47,9 @@ public class CartaoCreditoEntity implements Serializable {
     @Column(nullable = false)
     private StatusCartaoCredito status;
 
+    public CartaoCreditoEntity(long id, String number, String visa, String tiagoJunior, LocalDate of, boolean ativo, String valido) {
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
