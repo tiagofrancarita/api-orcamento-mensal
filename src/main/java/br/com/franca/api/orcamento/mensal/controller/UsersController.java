@@ -2,6 +2,7 @@ package br.com.franca.api.orcamento.mensal.controller;
 
 import br.com.franca.api.orcamento.mensal.entities.UserEntity;
 import br.com.franca.api.orcamento.mensal.service.UserService;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -11,6 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/user")
 @RequiredArgsConstructor
+@Tag(name = "entrypoint-users", description = "entrypoint para gerenciamento de usuarios")
 public class UsersController {
 
 
