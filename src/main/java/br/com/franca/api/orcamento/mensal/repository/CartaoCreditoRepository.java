@@ -2,6 +2,7 @@ package br.com.franca.api.orcamento.mensal.repository;
 
 import br.com.franca.api.orcamento.mensal.entities.CartaoCreditoEntity;
 import jakarta.transaction.Transactional;
+import lombok.NonNull;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
@@ -18,6 +19,7 @@ public interface CartaoCreditoRepository extends JpaRepository<CartaoCreditoEnti
     @Query("SELECT cc FROM CartaoCreditoEntity cc WHERE cc.numeroCartao LIKE %:numeroCartao%")
     public List<CartaoCreditoEntity> buscarCartaoPorNumero(String numeroCartao);
 
+    @NonNull
     @Query("SELECT cc FROM CartaoCreditoEntity cc WHERE cc.ativo = true and cc.status = 'Valido' ")
     List<CartaoCreditoEntity> findByStatusAtivoTrue();
 
