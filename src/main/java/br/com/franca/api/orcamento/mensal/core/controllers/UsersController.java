@@ -1,7 +1,7 @@
-package br.com.franca.api.orcamento.mensal.controller;
+package br.com.franca.api.orcamento.mensal.core.controllers;
 
-import br.com.franca.api.orcamento.mensal.entities.UserEntity;
-import br.com.franca.api.orcamento.mensal.service.UserService;
+import br.com.franca.api.orcamento.mensal.core.entities.UserEntity;
+import br.com.franca.api.orcamento.mensal.core.service.UserService;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.PostMapping;

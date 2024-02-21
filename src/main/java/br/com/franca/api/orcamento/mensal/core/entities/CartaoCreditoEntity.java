@@ -1,6 +1,6 @@
-package br.com.franca.api.orcamento.mensal.entities;
+package br.com.franca.api.orcamento.mensal.core.entities;
 
-import br.com.franca.api.orcamento.mensal.enums.StatusCartaoCredito;
+import br.com.franca.api.orcamento.mensal.core.enums.StatusCartaoCredito;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
 import lombok.AllArgsConstructor;

@@ -1,7 +1,7 @@
-package br.com.franca.api.orcamento.mensal.service;
+package br.com.franca.api.orcamento.mensal.core.service;
 
-import br.com.franca.api.orcamento.mensal.entities.UserEntity;
-import br.com.franca.api.orcamento.mensal.repository.UserRepository;
+import br.com.franca.api.orcamento.mensal.core.entities.UserEntity;
+import br.com.franca.api.orcamento.mensal.core.repositorys.UserRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

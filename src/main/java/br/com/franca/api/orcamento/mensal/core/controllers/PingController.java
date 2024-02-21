@@ -1,4 +1,4 @@
-package br.com.franca.api.orcamento.mensal.controller;
+package br.com.franca.api.orcamento.mensal.core.controllers;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

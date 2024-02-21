@@ -1,6 +1,6 @@
-package br.com.franca.api.orcamento.mensal.repository;
+package br.com.franca.api.orcamento.mensal.core.repositorys;
 
-import br.com.franca.api.orcamento.mensal.entities.UserEntity;
+import br.com.franca.api.orcamento.mensal.core.entities.UserEntity;
 import jakarta.transaction.Transactional;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;

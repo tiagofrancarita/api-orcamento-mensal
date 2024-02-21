@@ -1,11 +1,11 @@
 package br.com.franca.api.orcamento.mensal;
 
-import br.com.franca.api.orcamento.mensal.entities.CartaoCreditoEntity;
-import br.com.franca.api.orcamento.mensal.enums.StatusCartaoCredito;
-import br.com.franca.api.orcamento.mensal.exceptions.CartaoNotFoundException;
-import br.com.franca.api.orcamento.mensal.repository.CartaoCreditoRepository;
-import br.com.franca.api.orcamento.mensal.service.CartaoCreditoServiceImpl;
-import br.com.franca.api.orcamento.mensal.service.CartaoValidator;
+import br.com.franca.api.orcamento.mensal.core.entities.CartaoCreditoEntity;
+import br.com.franca.api.orcamento.mensal.core.enums.StatusCartaoCredito;
+import br.com.franca.api.orcamento.mensal.core.exceptions.CartaoNotFoundException;
+import br.com.franca.api.orcamento.mensal.core.repositorys.CartaoCreditoRepository;
+import br.com.franca.api.orcamento.mensal.core.service.CartaoCreditoServiceImpl;
+import br.com.franca.api.orcamento.mensal.core.service.CartaoValidator;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
