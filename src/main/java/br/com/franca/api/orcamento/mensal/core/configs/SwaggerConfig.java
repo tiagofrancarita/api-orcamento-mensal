@@ -1,4 +1,4 @@
-package br.com.franca.api.orcamento.mensal.config;
+package br.com.franca.api.orcamento.mensal.core.configs;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -17,7 +17,7 @@ public class SwaggerConfig {
     public Docket api() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
-                 .apis(RequestHandlerSelectors.basePackage("br.com.franca.api.orcamento.mensal.controller"))
+                 .apis(RequestHandlerSelectors.basePackage("br.com.franca.api.orcamento.mensal.controllers"))
                  .paths(PathSelectors.any())
                  .build()
                  .apiInfo(apiInfo());

@@ -1,4 +1,4 @@
-package br.com.franca.api.orcamento.mensal.enums;
+package br.com.franca.api.orcamento.mensal.core.enums;
 
 public enum StatusCartaoCredito {
 

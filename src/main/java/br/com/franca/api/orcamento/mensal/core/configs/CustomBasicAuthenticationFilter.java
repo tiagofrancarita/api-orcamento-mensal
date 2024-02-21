@@ -1,7 +1,7 @@
-package br.com.franca.api.orcamento.mensal.config;
+package br.com.franca.api.orcamento.mensal.core.configs;
 
-import br.com.franca.api.orcamento.mensal.entities.UserEntity;
-import br.com.franca.api.orcamento.mensal.repository.UserRepository;
+import br.com.franca.api.orcamento.mensal.core.entities.UserEntity;
+import br.com.franca.api.orcamento.mensal.core.repositorys.UserRepository;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

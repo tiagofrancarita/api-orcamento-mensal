@@ -1,4 +1,4 @@
-package br.com.franca.api.orcamento.mensal.exceptions;
+package br.com.franca.api.orcamento.mensal.core.exceptions;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
