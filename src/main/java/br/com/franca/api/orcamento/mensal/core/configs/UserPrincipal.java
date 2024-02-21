@@ -1,7 +1,7 @@
-package br.com.franca.api.orcamento.mensal.config;
+package br.com.franca.api.orcamento.mensal.core.configs;
 
 
-import br.com.franca.api.orcamento.mensal.entities.UserEntity;
+import br.com.franca.api.orcamento.mensal.core.entities.UserEntity;
 import lombok.Getter;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

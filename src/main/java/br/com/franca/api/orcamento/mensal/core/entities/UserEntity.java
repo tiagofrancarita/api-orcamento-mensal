@@ -1,4 +1,4 @@
-package br.com.franca.api.orcamento.mensal.entities;
+package br.com.franca.api.orcamento.mensal.core.entities;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;

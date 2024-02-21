@@ -1,6 +1,6 @@
-package br.com.franca.api.orcamento.mensal.repository;
+package br.com.franca.api.orcamento.mensal.core.repositorys;
 
-import br.com.franca.api.orcamento.mensal.entities.CartaoCreditoEntity;
+import br.com.franca.api.orcamento.mensal.core.entities.CartaoCreditoEntity;
 import jakarta.transaction.Transactional;
 import lombok.NonNull;
 import org.springframework.data.jpa.repository.JpaRepository;
